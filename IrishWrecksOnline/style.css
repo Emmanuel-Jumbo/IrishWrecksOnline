@@ -1,0 +1,152 @@
+
+ *{
+	margin: 0px;
+	color: white;
+ }
+ body, html{
+  height: 100%;
+ }
+ main{
+  min-height: 78%;
+  
+ }
+
+ header{
+ 	background-color: #111;
+	height: 50px;
+ }
+ h1{
+  color: black;
+ }
+
+ ul, a {
+ 	text-decoration: none;
+ }
+
+ ul{
+	padding-top: 13px;
+ }
+
+ nav{
+ 	display: inline;
+ }
+
+h2{
+	display: inline;
+}
+.imgFacts{
+	display: inline;
+	text-align: center;
+	float: right;
+	margin-top:300px; 
+	margin-right: 10%;
+
+}
+
+
+#navDiv{
+
+	display: inline-block;
+	float: right;
+	margin-right: 30px;
+	margin-top: 6px;
+
+}
+
+ nav li {
+	display: inline;
+	margin-right: 20px;
+
+ }
+
+ #homeImgContainer{
+ 	height: 550px;
+ 	background-image: url("imgs/wreck1.jpg");
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+  background-position: 0 50%;
+ 	text-align: right;
+  }
+  #aboutImgContainer{
+  height: 550px;
+  background-image: url("imgs/wreck1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  text-align: center;
+  vertical-align: center;
+
+  }
+  #scubaImgContainer{
+  height: 550px;
+  background-image: url("imgs/scuba.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  text-align: right;
+  vertical-align: center;
+  }
+
+  .title{
+    text-align: center;
+  }
+
+  #bottomHomePage{
+  	margin: 30px; 
+
+  }
+
+  #aboutInfo{
+    display: inline-box;
+    padding-top: 250px;
+    margin: 0% 12%;
+  }
+
+  .infoBlock{
+  	overflow: auto;
+  	display: flex;
+  	max-height: 220px;
+    justify-content: center;
+  }
+
+  .infoImg{
+	margin: 20px;
+  float:right;
+  justify-content: space-between;
+  }
+
+  .infoImg img{
+  	width: 200px;
+  	height: 150px;
+  	object-fit: cover;
+  	border: solid;
+  	border-color: #111;
+  	padding: 10px;
+  }
+
+  .infoText{
+  	width: auto;
+  	margin: 0px 20px;
+  	padding-top: 10px;
+    flex: 1;
+
+  }
+
+  .infoText p, .infoText h2{
+  	color: black;
+  	word-wrap: break-word;
+  }
+
+  .infoText h2{
+  	line-height: 50px;
+  }
+
+  footer{
+    width: 100%;
+    background-color: #111;
+  }
+  footer aside
+  {
+    padding: 10px 20px;
+  }
+
