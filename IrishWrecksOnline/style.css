@@ -1,38 +1,72 @@
 
+/*Setting margin of all elements to 0*/
+/*Setting color of all texts to white*/
  *{
 	margin: 0px;
 	color: white;
  }
+ /*Setting background color of the whole body*/
  body, html{
   height: 100%;
- }
- main{
-  min-height: 78%;
-  
+  background-color: white;
  }
 
+/*Makes the header follow scrolling*/
+ main{
+  position:absolute;
+  top: 50px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+  overflow-y:scroll; 
+ }
+  
+ /*Setting background-color and height of the header*/ 
  header{
- 	background-color: #111;
+ 	background-color: #2f195f;
 	height: 50px;
  }
+
  h1{
-  color: black;
+  color: #111;
  }
 
+ /*Taking out dots of unorderd list and underlines of anchor */ 
  ul, a {
  	text-decoration: none;
  }
 
- ul{
-	padding-top: 13px;
+
+ul {
+	width: 100%;
+  height: 100%;
+  display: inline-block;
+  padding: 0px;
  }
 
  nav{
  	display: inline;
- }
+  height: 50px;
+  
+  }
+  /*Preparing animation by using transition*/
+ nav a{
+  padding: 0 40px;
+  transition: 0.2s;
 
-h2{
-	display: inline;
+ }
+ /*animation occurs when the mouse hovers on an anchor*/
+ nav a:hover{
+  background-color: #2f195f;
+  padding:16px 40px 16.5px 40px;
+ }
+   /*animation occurs when the mouse hovers on an anchor*/
+nav h2{
+	display: inline-block;
+  padding: 17px;
+  padding-top: 11px;
+  margin-left: 3%;
+
 }
 .imgFacts{
 	display: inline;
@@ -45,41 +79,42 @@ h2{
 
 
 #navDiv{
-
+  background-color: #7353BA;
 	display: inline-block;
 	float: right;
-	margin-right: 30px;
-	margin-top: 6px;
+  padding: 16px 0px;
+  margin-right: 3%;
+
 
 }
 
- nav li {
+ li {
 	display: inline;
-	margin-right: 20px;
-
  }
 
  #homeImgContainer{
- 	height: 550px;
- 	background-image: url("imgs/wreck1.jpg");
- 	background-size: cover;
- 	background-repeat: no-repeat;
-  background-position: 0 50%;
- 	text-align: right;
-  }
-  #aboutImgContainer{
-  height: 550px;
+  height: 600px;
   background-image: url("imgs/wreck1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 50%;
   text-align: center;
   vertical-align: center;
+ 	
+  }
+  #aboutImgContainer{
+  height: 600px;
+  background-image: url("imgs/wreck1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  text-align: center;
+  margin-top: -2px;
 
   }
   #scubaImgContainer{
-  height: 550px;
-  background-image: url("imgs/scuba.jpg");
+  height: 600px;
+  background-image: url("imgs/scuba.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 50%;
@@ -91,8 +126,8 @@ h2{
     text-align: center;
   }
 
-  #bottomHomePage{
-  	margin: 30px; 
+  .bottomHomePage{
+  	margin-top:50px;
 
   }
 
@@ -102,39 +137,43 @@ h2{
     margin: 0% 12%;
   }
 
-  .infoBlock{
-  	overflow: auto;
-  	display: flex;
-  	max-height: 220px;
+  .bottomHomePage aside{
+
+    display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .infoBlock{
+    width: 200px;
+    margin:50px ;
+    padding-bottom: 10px;
+  	height: auto;
+
   }
 
   .infoImg{
-	margin: 20px;
-  float:right;
-  justify-content: space-between;
+    width: 200px;
+    height:200px; 
   }
 
   .infoImg img{
-  	width: 200px;
-  	height: 150px;
+    width: 100%;
+  	height: 100%;
   	object-fit: cover;
-  	border: solid;
-  	border-color: #111;
-  	padding: 10px;
+    object-position: 50% 50%;
   }
 
   .infoText{
-  	width: auto;
-  	margin: 0px 20px;
+  	margin: 20px
   	padding-top: 10px;
-    flex: 1;
 
   }
 
   .infoText p, .infoText h2{
   	color: black;
   	word-wrap: break-word;
+    text-align: center;
   }
 
   .infoText h2{
@@ -143,10 +182,24 @@ h2{
 
   footer{
     width: 100%;
-    background-color: #111;
+    background-color: #2f195f;
+
+  }
+  #smallLine{
+    margin: 0 20px;
+    background-color: #7353BA;
+    height:3px;
   }
   footer aside
   {
-    padding: 10px 20px;
+    padding: 10px 20px 40px 20px;
   }
+  footer h2{
+    text-align: center;
+    text-decoration: none;
+  }
+  footer ul{
+    display: inline;
+  }
+
 

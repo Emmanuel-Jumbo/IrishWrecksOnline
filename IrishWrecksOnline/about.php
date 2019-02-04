@@ -9,8 +9,7 @@
 				<h3>We are a stupid organisation, looking to help stupid divers with some stupid wrecks.</h3>	
 			</div>
 		</div>
+		<?php
+		require "footer.php";
+		?>
 	</main>
-
-<?php
-	require "footer.php";
-?>

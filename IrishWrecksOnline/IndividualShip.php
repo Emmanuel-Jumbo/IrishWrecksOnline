@@ -2,7 +2,7 @@
 	require "header.php";
 ?>
 
-	<main>
+	<main class="bottomHomePage">
 		<div class="infoBlock">
 				<aside class="infoImg">
 					<img src="imgs/IUC.jpg">
@@ -23,8 +23,7 @@
 					<img src="imgs/IUC.jpg">
 				</aside>
 			</div>
+			<?php
+			require "footer.php";
+			?>
 	</main>
-
-<?php
-	require "footer.php";
-?>
