@@ -9,7 +9,7 @@
 
 		<div id = "infoBasic" class="infoBlock">
 			<aside class="infoImg">
-				<img src="imgs/IUC.jpg">
+				<img src="imgs/SSShamrockII_Main.jpg">
 			</aside>
 			<aside class="infoText">
 				<h2>Vessel Type: </h2><br>
