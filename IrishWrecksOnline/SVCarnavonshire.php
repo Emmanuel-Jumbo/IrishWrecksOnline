@@ -4,20 +4,20 @@
 
 	<main class="bottomHomePage">
 		<div id = "shipName">
-			<h1>S.S. Shamrock II</h1>>
+			<h1>S.V. Carnavonshire</h1>>
 		</div>
 
 		<div id = "infoBasic" class="infoBlock">
 			<aside class="infoImg">
-				<img src="imgs/SSShamrockII_Main.jpg">
+				<img src="imgs/SVCarnavonshire_Main.jpg">
 			</aside>
 			<aside class="infoText">
 				<h2>Vessel Type: </h2><br>
-				<p>Cargo Steamer</p>
+				<p>3 Masted Sail Ship </p>
 				<h2>Date of Loss: </h2><br>
-				<p>5th May 1918</p>
+				<p>11th April 1896</p>
 				<h2>Cause of Loss: </h2><br>
-				<p>Ran Ashore</p>
+				<p>Struck Rocks</p>
 			</aside>
 		</div>
 
@@ -25,19 +25,19 @@
 		<div id = "infoLocation" class="infoBlock">
 			<aside class="infoText">
 				<h2>Location: </h2><br>
-				<p>Co. Dublin</p>
+				<p>Co. Cork</p>
 				<h2>Place: </h2><br>
-				<p>Lambay Island</p>
+				<p>Gokane Point</p>
 				<h2>Boat Dive From: </h2><br>
-				<p>Howth</p>
+				<p>Baltimore</p>
 				<h2>Latitude: </h2><br>
-				<p>53 29.45 North</p>
+				<p>51 05.00 North</p>
 				<h2>Longitude: </h2><br>
-				<p>05 59.45 West</p>
+				<p>09 10.45 West</p>
 				<h2>Irish O.S. Map: </h2><br>
-				<p>Discovery Series No. 50</p>
+				<p>Discovery Series No. 88 & 89</p>
 				<h2>Admiralty Chart No.: </h2><br>
-				<p>1468 and/or 44</p>
+				<p>2129</p>
 			</aside>
 			<aside class="infoImg">
 				<img src="imgs/IUC.jpg">
@@ -49,25 +49,24 @@
 			<aside class="infoText">
 				<h2>Diving Information</h2><br>
 				<p>
-    Lies to the South-West of Carrickdorish Rocks.<br>
-    2 Boilers, a cabin structure, decking plates and ribs remain.<br>
-    Some 4" shells can still be found.<br>
-    Don't touch any cheese-like substance as it could be phosphorous!<br>
-    Dive at any state of the tide.</p>
+    Lies 0.5 miles East of Gokane Point.<br>
+    Well broken up.<br>
+    Note!! A permit is needed to dive this wreck as it is over 100 years old.
+    			</p>
 			</aside>
 			<aside class="infoText">
 				<h2>Charted Depth: </h2><br>
-				<p>7m - 12m</p>
+				<p>20m</p>
 				<h2>Height of Wreck: </h2><br>
-				<p>2m</p>
+				<p>10m</p>
 				<h2>Hull Material: </h2><br>
 				<p>Iron</p>
 				<h2>Type of Seabed: </h2><br>
-				<p>Scree and Rocks</p>
+				<p>Rocks</p>
 				<h2>Average Visibility: </h2><br>
 				<p>10m - 15m</p>
 				<h2>Required Experience: </h2><br>
-				<p>Novice</p>
+				<p>Experienced Novice</p>
 			</aside>
 		</div>
 
@@ -76,13 +75,13 @@
 			<aside class="infoText">
 				<h2>Historical Information</h2><br>
 				<p>
-    Built in 1879 in Scotland by Inglis & Co. for Lairds, she measured 70.46 x 9.52 x 4.69m. and grossed 815 tons.<br>
-    She was powerd by a 2 cylinder compound steam engine which generated 274 h.p.<br>
-    Was part of the Dublin to Glasgow service.<br>
-    Ran aground and eventually broke her back.<br>
-    Hammond Lane & Co. salvaged her down to the waterline.<br>
-    Her cargo was munitions and horses.<br>
-    The horses swam ashore, and the thirty people aboard were rescued.</p>
+    A 3 masted iron barque, built for Hughes of Liverpool by Thomas Royden & Sons, Liverpool in 1876, she grossed 1,274 tons.<br>
+    Hughes operated her until 1895 and then sold her to H.R. Davies of Treborth, Bangor, Co.Down.<br>
+    Bound San Francisco for Queenstown with a cargo of wheat.<br>
+    She struck Thige Mor Rock at Yokane Point near Lough Inne, just east of the Coastguard Station at Barlogue.<br>
+    Her commander Captain Williams and 20 crew were able to row ashore at Tralagogh.<br>
+    The Second Mate was John Peter Lewis. He ended his career as old man in the Empress boats of Canadian Pacific.
+				</p>
 			</aside>
 		</div>
 
