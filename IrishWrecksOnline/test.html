@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="This the content that will come up in search results">
+	<meta name="viewport" content="width=device-width, intial-scale=1">
+	<title></title>
+</head>
+<body>
+
+	<div>
+		<img id="slideImg" src="imgs/wreck1.jpg" style="width: 300px; height:auto">
+		<button onclick="nextImage()">Next</button>
+
+		<script>
+			function nextImage()
+			{
+				var imgSrc = document.getElementById("slideImg").src;
+
+			 	document.getElementById("slideImg").src =  "imgs/wreck2.jpg";
+
+			}
+		</script>
+	</div>
+</body>	

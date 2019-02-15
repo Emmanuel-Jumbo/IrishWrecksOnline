@@ -2,7 +2,7 @@
 	require "header.php";
 ?>
 
-	<main class="bottomHomePage">
+	<main class="individualShipInfo">
 		<div id = "shipName">
 			<h1>M.V. Bardini Reefer</h1>>
 		</div>

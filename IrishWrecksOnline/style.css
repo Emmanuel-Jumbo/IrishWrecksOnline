@@ -4,6 +4,7 @@
  *{
 	margin: 0px;
 	color: white;
+  font-family: "Montserrat";
  }
  /*Setting background color of the whole body*/
  body, html{
@@ -49,6 +50,11 @@ ul {
   height: 50px;
   
   }
+
+  nav .icon{
+    background-color: #7353BA;
+    display: none;
+ }
   /*Preparing animation by using transition*/
  nav a{
   padding: 0 40px;
@@ -64,7 +70,7 @@ ul {
 nav h2{
 	display: inline-block;
   padding: 17px;
-  padding-top: 11px;
+  padding-top: 9px;
   margin-left: 3%;
 
 }
@@ -82,7 +88,7 @@ nav h2{
   background-color: #7353BA;
 	display: inline-block;
 	float: right;
-  padding: 16px 0px;
+  padding: 16px 0px 15px 0px;
   margin-right: 3%;
 
 
@@ -112,6 +118,7 @@ nav h2{
   margin-top: -2px;
 
   }
+
   #scubaImgContainer{
   height: 600px;
   background-image: url("imgs/scuba.png");
@@ -122,20 +129,25 @@ nav h2{
   vertical-align: center;
   }
 
-  .title{
+
+    .title{
     text-align: center;
   }
 
-  .bottomHomePage{
-  	margin-top:50px;
-
-  }
+ 
 
   #aboutInfo{
     display: inline-box;
     padding-top: 250px;
     margin: 0% 12%;
   }
+
+   .bottomHomePage{
+    margin-top:50px;
+
+  }
+
+  /*creating flex display for the information block*/
 
   .bottomHomePage aside{
 
@@ -144,17 +156,23 @@ nav h2{
     flex-wrap: wrap;
   }
 
+
+  /*
+    CSS for the information block
+  */
+
   .infoBlock{
     width: 200px;
-    margin:50px ;
-    padding-bottom: 10px;
+    padding:50px;
+    padding-bottom: 30px;
   	height: auto;
-
-  }
+      }
 
   .infoImg{
+    position: relative;
     width: 200px;
     height:200px; 
+    border-bottom: 2px solid #7353BA;
   }
 
   .infoImg img{
@@ -167,19 +185,93 @@ nav h2{
   .infoText{
   	margin: 20px
   	padding-top: 10px;
-
   }
 
-  .infoText p, .infoText h2{
-  	color: black;
+  .infoText p,.infoText h3, p b{
+  	color: #111;
   	word-wrap: break-word;
     text-align: center;
   }
 
+
   .infoText h2{
   	line-height: 50px;
+    color: black;
   }
 
+  /*
+    Learn More animation
+  */
+  
+  .learnMore{
+    text-align: center;
+    font-size: 24px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 0%;
+    background-color: rgba(115,83,186,0);
+    background-
+    opacity: 0;
+    color: transparent;
+    transition: 300ms;    
+  }
+
+
+  .infoImg:hover .learnMore
+  {
+    color: white;
+    height: 55%;
+    padding-top: 45%;
+    background-color: rgba(115,83,186,0.7);
+  }
+  
+  /*
+    ShipInfoCSS
+  */
+
+  .individualShipInfo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #shipTitle{
+    margin-top: 20px;
+    text-align: center;
+
+  }
+
+  #hDescription{
+    width: 400px;
+  }
+
+  #shipInfoMapBlock{
+    width: 300px;
+    height: 300px;
+  }
+  #shipInfoMap{
+    width: 100%;
+    height: 100%;
+  }
+
+  #shipInfoMapBlock img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+
+  .individualShipInfo .infoText{
+    margin-top : 20px;
+  }
+  
+  .individualShipInfo p, .individualShipInfo h3{
+    text-align: left;
+  }
+
+  /*Footerrrr*/
   footer{
     width: 100%;
     background-color: #2f195f;
@@ -201,5 +293,87 @@ nav h2{
   footer ul{
     display: inline;
   }
+
+@media screen and (max-width: 880px) {
+  
+  /*
+  Changing the menu when responsive
+  */
+  header{
+    overflow: hidden;
+  }
+
+  nav{
+    display: block;
+    height:auto;
+  }
+  nav a, nav h2{
+    display: block;
+    text-align: center;
+  }
+  nav a{
+    padding: 10px;
+  }
+  nav h2{
+    padding-bottom: 12px;
+  }
+
+    
+  /*Displaying the icon bars when responsive*/
+  nav .icon{
+    display: block;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+  }
+  .fa.fa-bars {
+    padding-top: 6px;
+    font-size: 36px;
+  }
+  nav a:hover{
+    padding: 10px;
+    background-color: #7353BA;
+  }
+  nav .icon:hover{
+    padding: 0px;
+  } 
+
+  #navDiv{
+    float: none;
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+  }
+
+  /*When you click the option bar*/
+
+  .responsiveMain{
+    top:206px;
+  }
+  .responsiveHeader{
+    overflow: visible;
+  }
+  
+  /*
+  ShipInfoCSS
+  */
+  
+  .individualShipInfo p{
+    text-align: justify;
+  }
+  .individualShipInfo h3{
+    text-align:center;
+  }
+
+
+
+
+}
+    
+
 
 

@@ -15,6 +15,7 @@
 				<div class="infoBlock">
 					<div class="infoImg">
 						<img src="imgs/wreck2.jpg">
+						<div class="learnMore">Learn More</div>
 					</div>
 					<div class="infoText">
 						<h2 class="title">Title</h2>
@@ -24,6 +25,7 @@
 				<div class="infoBlock">
 					<div class="infoImg">
 						<img src="imgs/wreck2.jpg">
+						<div class="learnMore">Learn More</div>
 					</div>
 					<div class="infoText">
 						<h2 class="title">Title</h2>
@@ -33,6 +35,8 @@
 				<div class="infoBlock">
 					<div class="infoImg">
 						<img src="imgs/wreck2.jpg">
+						<div class="learnMore">Learn More</div>
+						
 					</div>
 					<div class="infoText">
 						<h2 class="title">Title</h2>

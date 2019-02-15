@@ -2,7 +2,7 @@
 	require "header.php";
 ?>
 
-	<main class="bottomHomePage">
+	<main class="individualShipInfo">
 		<div id = "shipName">
 			<h1>S.S. Shamrock II</h1>>
 		</div>
@@ -11,32 +11,29 @@
 			<aside class="infoImg">
 				<img src="imgs/IUC.jpg">
 			</aside>
-			<aside class="infoText">
-				<h2>Vessel Type: </h2><br>
-				<p>Cargo Steamer</p>
-				<h2>Date of Loss: </h2><br>
-				<p>5th May 1918</p>
-				<h2>Cause of Loss: </h2><br>
-				<p>Ran Ashore</p>
-			</aside>
+			<h2>Vessel Type: </h2><p>Cargo Steamer</p>
+			<h2>Date of Loss: </h2>
+			<p>5th May 1918</p>
+			<h2>Cause of Loss: </h2>
+			<p>Ran Ashore</p>
 		</div>
 
 
 		<div id = "infoLocation" class="infoBlock">
 			<aside class="infoText">
-				<h2>Location: </h2><br>
+				<h2>Location: </h2>
 				<p>Co. Dublin</p>
-				<h2>Place: </h2><br>
+				<h2>Place: </h2>
 				<p>Lambay Island</p>
-				<h2>Boat Dive From: </h2><br>
+				<h2>Boat Dive From: </h2>
 				<p>Howth</p>
-				<h2>Latitude: </h2><br>
+				<h2>Latitude: </h2>
 				<p>53 29.45 North</p>
-				<h2>Longitude: </h2><br>
+				<h2>Longitude: </h2>
 				<p>05 59.45 West</p>
-				<h2>Irish O.S. Map: </h2><br>
+				<h2>Irish O.S. Map: </h2>
 				<p>Discovery Series No. 50</p>
-				<h2>Admiralty Chart No.: </h2><br>
+				<h2>Admiralty Chart No.: </h2>
 				<p>1468 and/or 44</p>
 			</aside>
 			<aside class="infoImg">
