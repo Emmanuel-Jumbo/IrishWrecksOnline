@@ -14,8 +14,8 @@
 			<aside>
 				<div class="infoBlock">
 					<div class="infoImg">
-						<img src="imgs/SYClemintine_Main.jpg">
-						<div class="learnMore">Learn More</div>
+						</a href="SYClemintine.php"><img src="imgs/SYClemintine_Main.jpg">
+						<div class="learnMore">Learn More</div></a>
 					</div>
 					<div class="infoText">
 						<h2 class="title">S.Y. Clemintine</h2>
@@ -24,8 +24,8 @@
 				</div>
 				<div class="infoBlock">
 					<div class="infoImg">
-						<img src="imgs/MVBardiniReefer_Main.jpg">
-						<div class="learnMore">Learn More</div>
+						<a href="MVBardiniReefer.php"><img src="imgs/MVBardiniReefer_Main.jpg">
+						<div class="learnMore">Learn More</div></a>
 					</div>
 					<div class="infoText">
 						<h2 class="title">M.V. Bardini Reefer</h2>
@@ -34,8 +34,8 @@
 				</div>
 				<div class="infoBlock">
 					<div class="infoImg">
-						<img src="imgs/RMSJusticia_Main.jpg">
-						<div class="learnMore">Learn More</div>
+						<a href="RMSJusticia.php"><img src="imgs/RMSJusticia_Main.jpg">
+						<div class="learnMore">Learn More</div></a>
 						
 					</div>
 					<div class="infoText">
