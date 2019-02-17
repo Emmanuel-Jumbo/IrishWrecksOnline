@@ -110,19 +110,30 @@
 					<div id="mapContent" class="revealContent">
 						<img id="imageMap" src="imgs/MapOfIreland.png" alt="MapOfIreland" usemap="#ShipWrecksMap">
 						<map name="ShipWrecksMap">
-						  <area shape="rect" coords="308,1214,271,1167" alt="KowloonBridge" href="http://www.irishwrecksonline.net/details/KowloonBridge548.htm">
-						  <area shape="rect" coords="199,1154,163,1102" alt="BardiniReefer" href="http://www.irishwrecksonline.net/details/BardiniReefer115a.htm">
-						  <area shape="rect" coords="496,1112,462,1063" alt="Celtic" href="http://www.irishwrecksonline.net/details/Celtic134.htm">
-						  <area shape="rect" coords="419,1136,452,1091" alt="Lusitania" href="http://www.irishwrecksonline.net/details/Lusitania608.htm">
-						  <area shape="rect" coords="280,1138,315,1167" alt="Carnavonshire" href="http://www.irishwrecksonline.net/details/Carnavonshire124.htm">
-						  <area shape="rect" coords="602,29,633,75" alt="EmpireHeritage" href="http://www.irishwrecksonline.net/details/EmpireHeritage358.htm">
-						  <area shape="rect" coords="651,0,609,28" alt="Justicia" href="http://www.irishwrecksonline.net/details/Justicia544ayy.htm">
-						  <area shape="rect" coords="874,611,841,563" alt="Shamrock" href="http://www.irishwrecksonline.net/details/Shamrock689.htm">
-						  <area shape="rect" coords="850,614,819,660" alt="Leinster" href="http://www.irishwrecksonline.net/details/Leinster555.htm">
-						  <area shape="rect" coords="716,67,748,111" alt="Towy" href="http://www.irishwrecksonline.net/details/Towy800.htm">
-						  <area shape="rect" coords="835,204,804,248" alt="Clemintine" href="http://www.irishwrecksonline.net/details/Clemintine200.htm">
-						  <area shape="rect" coords="864,158,894,202" alt="Thrush" href="http://www.irishwrecksonline.net/details/Thrush775.htm">
-						  <area shape="rect" coords="846,142,864,184" alt="StateOfLouisiana" href="http://www.irishwrecksonline.net/details/StateOfLouisiana700.htm">
+						  <area shape="rect" coords="308,1214,271,1167" alt="KowloonBridge" onclick='window.location.href="http://localhost/shipSearch'/>
+						  <area shape="rect" coords="199,1154,163,1102" alt="BardiniReefer" onclick='window.location.href="http://localhost'/> 
+						  <area shape="rect" coords="496,1112,462,1063" alt="Celtic" onclick='window.location.href="http://localhost'/>
+
+						  <area shape="rect" coords="419,1136,452,1091" alt="Lusitania" onclick='window.location.href="http://localhost'/>
+
+						  <area shape="rect" coords="280,1138,315,1167" alt="Carnavonshire" onclick='window.location.href="http://localhost'/>
+
+						  <area shape="rect" coords="602,29,633,75" alt="EmpireHeritage" onclick='window.location.href="http://localhost'/>
+
+						  <area shape="rect" coords="651,0,609,28" alt="Justicia" onclick='window.location.href="http://localhost'/>
+
+						  <area shape="rect" coords="874,611,841,563" alt="Shamrock" onclick='window.location.href="http://localhost'/>
+
+						  <area shape="rect" coords="850,614,819,660" alt="Leinster" onclick='window.location.href="http://localhost'/>
+
+						  <area shape="rect" coords="716,67,748,111" alt="Towy" onclick='window.location.href="http://localhost'/>
+
+						  <area shape="rect" coords="835,204,804,248" alt="Clemintine" onclick='window.location.href="http://localhost'/>
+
+						  <area shape="rect" coords="864,158,894,202" alt="Thrush" onclick='window.location.href="http://localhost'/>
+
+						  <area shape="rect" coords="846,142,864,184" alt="StateOfLouisiana" onclick='window.location.href="http://localhost'/>
+
 						</map>
 					</div>
 					<div id="mapTop" class="revealTop">
