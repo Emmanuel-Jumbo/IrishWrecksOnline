@@ -1,0 +1,379 @@
+
+/*Setting margin of all elements to 0*/
+/*Setting color of all texts to white*/
+ *{
+	margin: 0px;
+	color: white;
+  font-family: "Montserrat";
+ }
+ /*Setting background color of the whole body*/
+ body, html{
+  height: 100%;
+  background-color: white;
+ }
+
+/*Makes the header follow scrolling*/
+ main{
+  position:absolute;
+  top: 50px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+  overflow-y:scroll; 
+ }
+  
+ /*Setting background-color and height of the header*/ 
+ header{
+ 	background-color: #2f195f;
+	height: 50px;
+ }
+
+ h1{
+  color: #111;
+ }
+
+ /*Taking out dots of unorderd list and underlines of anchor */ 
+ ul, a {
+ 	text-decoration: none;
+ }
+
+
+ul {
+	width: 100%;
+  height: 100%;
+  display: inline-block;
+  padding: 0px;
+ }
+
+ nav{
+ 	display: inline;
+  height: 50px;
+  
+  }
+
+  nav .icon{
+    background-color: #7353BA;
+    display: none;
+ }
+  /*Preparing animation by using transition*/
+ nav a{
+  padding: 0 40px;
+  transition: 0.2s;
+
+ }
+ /*animation occurs when the mouse hovers on an anchor*/
+ nav a:hover{
+  background-color: #2f195f;
+  padding:16px 40px 16.5px 40px;
+ }
+   /*animation occurs when the mouse hovers on an anchor*/
+nav h2{
+	display: inline-block;
+  padding: 17px;
+  padding-top: 9px;
+  margin-left: 3%;
+
+}
+.imgFacts{
+	display: inline;
+	text-align: center;
+	float: right;
+	margin-top:300px; 
+	margin-right: 10%;
+
+}
+
+
+#navDiv{
+  background-color: #7353BA;
+	display: inline-block;
+	float: right;
+  padding: 16px 0px 15px 0px;
+  margin-right: 3%;
+
+
+}
+
+ li {
+	display: inline;
+ }
+
+ #homeImgContainer{
+  height: 600px;
+  background-image: url("imgs/wreck1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  text-align: center;
+  vertical-align: center;
+ 	
+  }
+  #aboutImgContainer{
+  height: 600px;
+  background-image: url("imgs/wreck1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  text-align: center;
+  margin-top: -2px;
+
+  }
+
+  #scubaImgContainer{
+  height: 600px;
+  background-image: url("imgs/scuba.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  text-align: right;
+  vertical-align: center;
+  }
+
+
+    .title{
+    text-align: center;
+  }
+
+ 
+
+  #aboutInfo{
+    display: inline-box;
+    padding-top: 250px;
+    margin: 0% 12%;
+  }
+
+   .bottomHomePage{
+    margin-top:50px;
+
+  }
+
+  /*creating flex display for the information block*/
+
+  .bottomHomePage aside{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+
+  /*
+    CSS for the information block
+  */
+
+  .infoBlock{
+    width: 200px;
+    padding:50px;
+    padding-bottom: 30px;
+  	height: auto;
+      }
+
+  .infoImg{
+    position: relative;
+    width: 200px;
+    height:200px; 
+    border-bottom: 2px solid #7353BA;
+  }
+
+  .infoImg img{
+    width: 100%;
+  	height: 100%;
+  	object-fit: cover;
+    object-position: 50% 50%;
+  }
+
+  .infoText{
+  	margin: 20px
+  	padding-top: 10px;
+  }
+
+  .infoText p,.infoText h3, p b{
+  	color: #111;
+  	word-wrap: break-word;
+    text-align: center;
+  }
+
+
+  .infoText h2{
+  	line-height: 50px;
+    color: black;
+  }
+
+  /*
+    Learn More animation
+  */
+  
+  .learnMore{
+    text-align: center;
+    font-size: 24px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 0%;
+    background-color: rgba(115,83,186,0);
+    background-
+    opacity: 0;
+    color: transparent;
+    transition: 300ms;    
+  }
+
+
+  .infoImg:hover .learnMore
+  {
+    color: white;
+    height: 55%;
+    padding-top: 45%;
+    background-color: rgba(115,83,186,0.7);
+  }
+  
+  /*
+    ShipInfoCSS
+  */
+
+  .individualShipInfo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #shipTitle{
+    margin-top: 20px;
+    text-align: center;
+
+  }
+
+  #hDescription{
+    width: 400px;
+  }
+
+  #shipInfoMapBlock{
+    width: 300px;
+    height: 300px;
+  }
+  #shipInfoMap{
+    width: 100%;
+    height: 100%;
+  }
+
+  #shipInfoMapBlock img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+
+  .individualShipInfo .infoText{
+    margin-top : 20px;
+  }
+  
+  .individualShipInfo p, .individualShipInfo h3{
+    text-align: left;
+  }
+
+  /*Footerrrr*/
+  footer{
+    width: 100%;
+    background-color: #2f195f;
+
+  }
+  #smallLine{
+    margin: 0 20px;
+    background-color: #7353BA;
+    height:3px;
+  }
+  footer aside
+  {
+    padding: 10px 20px 40px 20px;
+  }
+  footer h2{
+    text-align: center;
+    text-decoration: none;
+  }
+  footer ul{
+    display: inline;
+  }
+
+@media screen and (max-width: 880px) {
+  
+  /*
+  Changing the menu when responsive
+  */
+  header{
+    overflow: hidden;
+  }
+
+  nav{
+    display: block;
+    height:auto;
+  }
+  nav a, nav h2{
+    display: block;
+    text-align: center;
+  }
+  nav a{
+    padding: 10px;
+  }
+  nav h2{
+    padding-bottom: 12px;
+  }
+
+    
+  /*Displaying the icon bars when responsive*/
+  nav .icon{
+    display: block;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+  }
+  .fa.fa-bars {
+    padding-top: 6px;
+    font-size: 36px;
+  }
+  nav a:hover{
+    padding: 10px;
+    background-color: #7353BA;
+  }
+  nav .icon:hover{
+    padding: 0px;
+  } 
+
+  #navDiv{
+    float: none;
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+  }
+
+  /*When you click the option bar*/
+
+  .responsiveMain{
+    top:206px;
+  }
+  .responsiveHeader{
+    overflow: visible;
+  }
+  
+  /*
+  ShipInfoCSS
+  */
+  
+  .individualShipInfo p{
+    text-align: justify;
+  }
+  .individualShipInfo h3{
+    text-align:center;
+  }
+
+
+
+
+}
+    
+
+
+
