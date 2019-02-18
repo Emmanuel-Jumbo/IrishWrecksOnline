@@ -18,7 +18,7 @@
 			<aside>
 				<div class="infoBlock">
 					<div class="infoImg">
-						<a href="https://www.bsac.com/home/"><img src="imgs/BSUC.jpg">
+						<a href="https://www.bsac.com/home/"><img src="imgs/BSAC.jpg">
 						<div class="learnMore">Learn More</div></a></a>
 					</div>
 					<div class="infoText">

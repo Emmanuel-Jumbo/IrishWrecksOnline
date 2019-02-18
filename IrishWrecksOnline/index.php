@@ -5,7 +5,7 @@
 	<main>
 		<div class="imgContainer" id="homeImgContainer">
 			<div class="imgFacts">
-				<h2>WrecksFound</h2><br>
+				<h2>#WrecksFound</h2><br>
 				<h3>3534</h3>	
 			</div>
 		</div>
@@ -47,7 +47,7 @@
 		</div>
 		<script type="text/javascript">
 			var bgImageArray = ["imgs/wreck1.jpg", "imgs/wreck2.jpg", "imgs/wreck3.jpeg"],
-				secs = 5;
+				secs = 3;
 			bgImageArray.forEach(function(img){
     			new Image().src = img; 
     		// caches images, avoiding white flash between background replacements

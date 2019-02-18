@@ -71,7 +71,7 @@ ul {
  /*animation occurs when the mouse hovers on an anchor*/
  nav a:hover{
   background-color: #2f195f;
-  padding:16px 40px 16.5px 40px;
+  padding:16px 40px 15px 40px;
  }
    /*animation occurs when the mouse hovers on an anchor*/
 nav h2{
@@ -82,11 +82,10 @@ nav h2{
 
 }
 .imgFacts{
-	display: inline;
+	display: inline-block;
 	text-align: center;
-	float: right;
+	float: unset;
 	margin-top:300px; 
-	margin-right: 10%;
 
 }
 
@@ -130,7 +129,7 @@ nav h2{
   #scubaImgContainer{
 
   background-image: url("imgs/scuba.png");
-  text-align: right;
+  text-align: center;
   }
 
 
@@ -139,6 +138,11 @@ nav h2{
   }
 
  
+   #aboutWrapper{
+    padding: 20px;
+    border: 2px solid #2f195f;
+    background-color: rgba(115,83,186,0.7);
+  }
 
   #aboutInfo{
     
@@ -146,6 +150,7 @@ nav h2{
     padding-top: 175px;
     margin: 0% 12%;
   }
+
 
   #aboutInfo h3{
     text-align: justify;
