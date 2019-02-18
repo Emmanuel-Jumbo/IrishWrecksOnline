@@ -23,7 +23,7 @@
     			 </a>
 				<div id="navDiv">
 					<li><a href="index.php">Home</a></li>
-					<li><a href="#">Ships</a></li>
+					<li><a href="shipsPage.php">Ships</a></li>
 					<li><a href="ScubaDive.php">Scuba Dive</a></li>
 					<li><a href="about.php">About</a></li>
 				</div>

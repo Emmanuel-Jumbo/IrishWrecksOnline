@@ -1,20 +1,25 @@
 <?php
 	require "header.php";
 ?>
-
+	
 	<main>
-		<div id="scubaImgContainer">
+		<div class="imgContainer" id="scubaImgContainer">
 			<div class="imgFacts">
 				<h2>Explore the Deep</h2><br>
 				<h3>Visit one of the organizations below to get started in the world of scuba diving.</h3>	
 			</div>
 		</div>
 		<div class="bottomHomePage">
+			<ul class="breadcrumb">
+			  <li><a href="index.php">Home</a></li>
+			  <li>Scuba Dive</li>
+			</ul>
 			<h1 class="title">Stupid Scuba Diving Companies</h1>
 			<aside>
 				<div class="infoBlock">
 					<div class="infoImg">
-						<a href="https://www.bsac.com/home/"><img src="imgs/BSUC.jpg"></a>
+						<a href="https://www.bsac.com/home/"><img src="imgs/BSUC.jpg">
+						<div class="learnMore">Learn More</div></a></a>
 					</div>
 					<div class="infoText">
 						<h2 class="title">The British Sub Aqua Club</h2>
@@ -24,7 +29,8 @@
 				</div>
 				<div class="infoBlock">
 					<div class="infoImg">
-						<a href="http://diving.ie/"><img src="imgs/IUC.jpg"></a>
+						<a href="http://diving.ie/"><img src="imgs/IUC.jpg">
+						<div class="learnMore">Learn More</div></a></a>
 					</div>
 					<div class="infoText">
 						<h2 class="title">The Irish Underwater Council</h2>
@@ -34,7 +40,8 @@
 				</div>
 				<div class="infoBlock">
 					<div class="infoImg">
-						<a href="http://saa.org.uk/"><img src="imgs/SAA.jpg"></a>
+						<a href="http://saa.org.uk/"><img src="imgs/SAA.png">
+							<div class="learnMore">Learn More</div></a>
 					</div>
 					<div class="infoText">
 						<h2 class="title">The Sub Aqua Association</h2>

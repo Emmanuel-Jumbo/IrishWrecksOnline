@@ -3,7 +3,7 @@
 ?>
 
 	<main>
-		<div id="homeImgContainer">
+		<div class="imgContainer" id="homeImgContainer">
 			<div class="imgFacts">
 				<h2>WrecksFound</h2><br>
 				<h3>3534</h3>	
@@ -14,7 +14,7 @@
 			<aside>
 				<div class="infoBlock">
 					<div class="infoImg">
-						</a href="SYClemintine.php"><img src="imgs/SYClemintine_Main.jpg">
+						<a href="SYClemintine.php"><img src="imgs/SYClemintine_Main.jpg">
 						<div class="learnMore">Learn More</div></a>
 					</div>
 					<div class="infoText">
@@ -45,6 +45,28 @@
 				</div>
 			</aside>
 		</div>
+		<script type="text/javascript">
+			var bgImageArray = ["imgs/wreck1.jpg", "imgs/wreck2.jpg", "imgs/wreck3.jpeg"],
+				secs = 5;
+			bgImageArray.forEach(function(img){
+    			new Image().src = img; 
+    		// caches images, avoiding white flash between background replacements
+			});
+
+function backgroundSequence() {
+	window.clearTimeout();
+	var k = 0;
+	for (i = 0; i < bgImageArray.length; i++) {
+		setTimeout(function(){ 
+			document.getElementById("homeImgContainer").style.background = "url("+ bgImageArray[k] + ")";
+			document.getElementById("homeImgContainer").style.backgroundSize ="cover";
+			document.getElementById("homeImgContainer").style.backgroundPosition ="50% 50%";
+		if ((k + 1) === bgImageArray.length) { setTimeout(function() { backgroundSequence() }, (secs * 1000))} else { k++; }			
+		}, (secs * 1000) * i)	
+	}
+}
+backgroundSequence();
+		</script>
 		<?php
 		require "footer.php";
 		?>
